@@ -12,4 +12,4 @@ export default function Item ({Obj}) {
             </ul>
         </div>
     );
-}
+};

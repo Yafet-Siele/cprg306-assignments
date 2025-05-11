@@ -29,7 +29,7 @@ export default function ItemList({items, onItemSelect}) {
             </div>
             <div>
                 {itemArray.map( (food) => (
-                <Item Obj={food} key={food.id} onSelect={onItemSelect} />
+                <Item foodObj={food} key={food.id} onSelect={onItemSelect} />
             ) )
             }
             </div>

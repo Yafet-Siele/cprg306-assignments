@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const StudentInfo = ()=>{
+export default function StudentInfo(){
 return (
     <main>
     <h1>Yafet Siele</h1>
@@ -8,4 +8,4 @@ return (
     </main>
     );
 };
-export default StudentInfo;
+

@@ -15,9 +15,6 @@ export default function ItemList({items, onItemSelect}) {
 
     const handleCategory = () => {
         setSortBy("category")
-        
-
-
     }
 
     return(

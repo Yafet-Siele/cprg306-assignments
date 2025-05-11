@@ -1,7 +1,6 @@
 "use client"
 import { useEffect, useState } from "react";
 
-// Define the async function to fetch meal data by ingredient
 async function getMealByIngredient(ingredient) {
     try {
         const response = await fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredient}`);

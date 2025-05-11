@@ -88,4 +88,4 @@ export default function ItemList() {
             <Item Obj={item12} />
         </main>
     );
-}
+};
